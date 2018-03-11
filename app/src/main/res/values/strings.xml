@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Abhyas</string>
+    <string name="enter_the_student_id">enter the student id</string>
+    <string name="login">LOGIN</string>
+    <string name="enter_the_student_class">enter the student standard</string>
+    <string name="register">REGISTER</string>
+    <string name="settings">Settings</string>
+    <string name="enter_the_father_s_name">enter the father\'s name</string>
+    <string name="enter_the_roll_number_of_the_student">enter the roll number of the student</string>
+    <string name="enter_the_date_of_birth_exapmle_dd_mm_yyyy">enter the date of birth exapmle:dd/mm/yyyy</string>
+    <string name="enter_the_student_name">enter the student name</string>
+    <string name="button">Button</string>
+    <string name="video_name">Video name</string>
+    <string name="video_thumbnail">video thumbnail</string>
+    <string name="api_key">AIzaSyBuifHauaple-hNx1w8Xgzrc9affX2Waxs</string>
+    <string name="player_error">edho aindhi saaavu</string>
+    <string name="title_activity_test">Test</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="refresh">refresh</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="app_icon">App icon</string>
+    <string name="next">next</string>
+    <string name="previous">previous</string>
+    <string name="submit">submit</string>
+    <string name="thumb">Thumb</string>
+    <string name="title_activity_test2">Test2</string>
+    <string name="title_activity_subjects_3">Subjects_3</string>
+    <string name="student_profile">Student profile</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="about_us">About us</string>
+    <string name="admin_portal">Admin Portal</string>
+    <string name="animation">Animation</string>
+    <string name="mnit">MNIT</string>
+    <string name="logout">Logout</string>
+    <string name="dummy">dummy</string>
+    <string name="title_activity_teachers_subjects">TeachersSubjects</string>
+    <string name="user_id">User_id</string>
+    <string name="password">Password</string>
+    <string name="teacher">teacher</string>
+    <string name="select_standard">Select Standard</string>
+    <string name="add">ADD</string>
+    <string name="enter_teacher_name">Enter teacher name</string>
+    <string name="title_activity_teacher__main">Teacher_Main</string>
+    <string name="students">Students</string>
+    <string name="title_activity_teacher_videos">Teacher_videos</string>
+    <string name="title_activity_teachers__questions">Teachers_Questions</string>
+    <string name="enter_question">Enter Question</string>
+    <string name="enter_option_1">Enter option 1</string>
+    <string name="enter_option_2">Enter option 2</string>
+    <string name="enter_option_3">Enter option 3</string>
+    <string name="enter_option_4">Enter option 4</string>
+    <string name="edit">edit</string>
+</resources>

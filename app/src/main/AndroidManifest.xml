@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.leagueofshadows.abhyas">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Parent"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Subjects"
+            android:label="Subjects"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginRegister"
+            android:label="Login/Register"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Videos"
+            android:label="Videos"
+            android:parentActivityName=".Subjects"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Videoview"
+            android:label="VideoName"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".Subjects"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Test"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Subjects_3"
+            android:label="@string/title_activity_subjects_3"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudentProfile"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminPortal"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddTeacher"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Teacher_Main"
+            android:label="@string/title_activity_teacher__main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Teacher_Students"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Teacher_videos"
+            android:label="@string/title_activity_teacher_videos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Teachers_Questions"
+            android:label="@string/title_activity_teachers__questions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Add_Question" />
+        <activity android:name=".AddStudent" />
+        <activity android:name=".EditStudent"></activity>
+    </application>
+
+</manifest>

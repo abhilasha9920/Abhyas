@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.leagueofshadows.abhyas.Subjects">
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/refresh"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_refresh_black_48dp"
+        android:visible="true" />
+    <item
+        android:id="@+id/action_submit"
+        android:title="@string/submit"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_done_all_black_48dp"
+        android:visible="true" />
+</menu>

@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dip"
+    android:background="#FFFFFF"
+    tools:context="com.leagueofshadows.abhyas.Test$QuizFragment"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:text="Question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question"
+        android:textSize="25sp"
+        android:padding="10dip"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip"
+        android:id="@+id/radio">
+
+        <RadioButton
+            android:text="option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dip"
+            android:id="@+id/op1" />
+
+        <RadioButton
+            android:text="option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dip"
+            android:id="@+id/op2" />
+
+        <RadioButton
+            android:text="option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dip"
+            android:id="@+id/op3" />
+
+        <RadioButton
+            android:text="option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dip"
+            android:id="@+id/op4" />
+    </RadioGroup>
+
+</LinearLayout>
